@@ -1,0 +1,12 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  message: MyText
+  read: false
+  created_at: 2026-02-17 14:02:30
+
+two:
+  user: two
+  message: MyText
+  read: false
