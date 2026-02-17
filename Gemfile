@@ -21,7 +21,7 @@ gem "solid_queue"
 gem "solid_cable"
 
 # JWT for token authentication
-gem "jwt", "~> 2.8"
+gem "jwt", "~> 3.1"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
