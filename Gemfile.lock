@@ -124,6 +124,8 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.18.1)
+    jwt (2.10.2)
+      base64
     kamal (2.10.1)
       activesupport (>= 7.0)
       base64 (~> 0.2)
@@ -304,9 +306,9 @@ GEM
       ostruct
     stringio (3.2.0)
     thor (1.5.0)
-    thruster (0.1.18)
-    thruster (0.1.18-aarch64-linux)
-    thruster (0.1.18-x86_64-linux)
+    thruster (0.1.19)
+    thruster (0.1.19-aarch64-linux)
+    thruster (0.1.19-x86_64-linux)
     timeout (0.6.0)
     tsort (0.2.0)
     tzinfo (2.0.6)
@@ -338,6 +340,7 @@ DEPENDENCIES
   bundler-audit
   debug
   image_processing (~> 1.2)
+  jwt (~> 2.8)
   kamal
   mysql2 (~> 0.5)
   puma (>= 5.0)
